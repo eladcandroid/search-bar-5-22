@@ -1,0 +1,31 @@
+body {
+  background-color: EBF2FE;
+}
+input {
+  border-radius: 10px;
+  border: 1px solid #ada9a9;
+  padding: 1% 6%;
+  margin: 1% 1%;
+  background-image: url(search.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  outline: 0;
+  background-position: 12px;
+  background-size: 16px;
+}
+.displayed-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.displayed-list li {
+  background-color: #686ff7;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.displayed-list li.no-results {
+  background-color: #ff6346;
+}
